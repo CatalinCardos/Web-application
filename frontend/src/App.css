@@ -1,0 +1,694 @@
+.App {
+
+  text-align: center;
+  display: flex;
+  min-height: 100vh;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  background-repeat: no-repeat;
+  background: linear-gradient(110.8deg, #14A4EE -7.36%, #126BA8 9.67%, #0C3A6B 47.81%, #081F49 76.65%);
+}
+
+
+
+.css-sghohy-MuiButtonBase-root-MuiButton-root {
+  background: linear-gradient(90.9deg, #A8E910 4.37%, #1C7227 114.07%);
+  border-radius: 12.2111px;
+  width: 242.34px;
+  height: 62.46px;
+  left: calc(50% - 242.34px/2 - 2.02px);
+  top: calc(50% - 62.46px/2 + 75.23px);
+  position: absolute;
+}
+
+
+.login-form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.div-group {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  flex-wrap: wrap;
+  column-count: calc(2);
+}
+
+.register-form {
+  display: flex;
+  flex-direction: column;
+}
+
+input {
+  box-sizing: border-box;
+
+  position: flex;
+  width: 228.02px;
+  height: 52.24px;
+
+  border: 0.763194px solid #FFFFFF;
+  border-radius: 9.92153px;
+  background: none;
+  color: white;
+  margin: 5%;
+  padding: 5%;
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 13.7375px;
+  line-height: 126%;
+  outline-color: white;
+
+}
+
+
+
+.login-btn {
+  width: 250px;
+  height: 50px;
+  left: calc(50% - 242.34px/2 - 2.02px);
+  top: calc(50% - 62.46px/2 + 75.23px);
+  position: flex;
+  border: none;
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 13.7375px;
+  line-height: 126%;
+  /* or 17px */
+
+  text-align: center;
+
+  color: #FFFFFF;
+
+}
+
+.submit-btn {
+  width: 250px;
+  height: 50px;
+  left: calc(50% - 242.34px/2 - 2.02px);
+  top: calc(50% - 62.46px/2 + 75.23px);
+  position: flex;
+  border: none;
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 13.7375px;
+  line-height: 126%;
+  /* or 17px */
+
+  text-align: center;
+
+  color: #FFFFFF;
+}
+
+button:hover{
+  border-radius: 100.2111px;
+  color: #126BA8;
+}
+
+.custom-select {
+  display: flex;
+  align-items: center;
+}
+
+.selectSport {
+  box-sizing: border-box;
+  position: flex;
+  width: 228.02px;
+  height: 52.24px;
+  left: 601px;
+  bottom: 517.68px;
+
+  border: 0.763194px solid #FFFFFF;
+  border-radius: 9.92153px;
+  background: none;
+  color: white;
+  margin: 5%;
+  padding: 5%;
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 13.7375px;
+  line-height: 126%;
+  outline-color: white;
+
+}
+
+.selectSport:hover {
+  color: rgb(0, 0, 0);
+}
+
+.footballImage {
+  position: absolute;
+  width: 480px;
+  height: 937px;
+  left: 0px;
+  top: 0px;
+  animation-duration: 5s;
+  animation-delay: -2s;
+  animation-iteration-count: initial;
+  animation-name: slide;
+}
+
+@keyframes slide {
+  0% {
+    transform: translateY(-100%);
+  }
+  100% {
+    transform: translateY(0);
+  }
+} 
+
+@keyframes slideButton {
+  0% {
+    transform: translateY(-500%);
+  }
+  100% {
+    transform: translateY(0);
+  }
+} 
+
+.bascketImage {
+  position: absolute;
+  width: 480px;
+  height: 937px;
+  left: 480px;
+  top: 0px;
+  animation-duration: 5s;
+  animation-delay: -2s;
+  animation-iteration-count: initial;
+  animation-name: slide;
+}
+
+.handballImage {
+  position: absolute;
+  width: 480px;
+  height: 937px;
+  left: 960px;
+  top: 0px;
+  animation-duration: 5s;
+  animation-delay: -2s;
+  animation-iteration-count: initial;
+  animation-name: slide;
+}
+
+.tennisImage {
+  position: absolute;
+  width: 480px;
+  height: 937px;
+  left: 1440px;
+  top: 0px;
+  animation-duration: 5s;
+  animation-delay: -2s;
+  animation-iteration-count: initial;
+  animation-name: slide;
+}
+
+
+.footballButton{
+
+  width: 200px;
+  height: 40px;
+
+  position: absolute;
+  border: none;
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 13.7375px;
+  line-height: 126%;
+  /* or 17px */
+  left: 130px;
+  bottom: 450px;
+  text-align: center;
+
+  color: #FFFFFF;
+
+  animation-duration: 5s;
+  animation-delay: -2s;
+  animation-iteration-count: initial;
+  animation-name: slideButton;
+}
+
+button{
+  background: linear-gradient(90.9deg, #A8E910 4.37%, #1C7227 114.07%);
+  border-radius: 12.2111px;
+}
+
+.bascketButton{
+
+  width: 200px;
+  height: 40px;
+  position: absolute;
+  border: none;
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 13.7375px;
+  line-height: 126%;
+  /* or 17px */
+  left: 625px;
+  bottom: 450px;
+  text-align: center;
+
+  color: #FFFFFF;
+
+  animation-duration: 5s;
+  animation-delay: -2s;
+  animation-iteration-count: initial;
+  animation-name: slideButton;
+}
+
+
+.handballButton{
+
+  width: 200px;
+  height: 40px;
+  position: absolute;
+  border: none;
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 13.7375px;
+  line-height: 126%;
+  /* or 17px */
+  left: 1120px;
+  bottom: 450px;
+  text-align: center;
+
+  color: #FFFFFF;
+
+  animation-duration: 5s;
+  animation-delay: -2s;
+  animation-iteration-count: initial;
+  animation-name: slideButton;
+}
+
+.messageIconClass{
+  width: 33px;
+height: 32px;
+}
+
+.tennisButton{
+
+  width: 200px;
+  height: 40px;
+  position: absolute;
+  border: none;
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 13.7375px;
+  line-height: 126%;
+  /* or 17px */
+  left: 1600px;
+  bottom: 450px;
+  text-align: center;
+
+  color: #FFFFFF;
+
+  animation-duration: 5s;
+  animation-delay: -2s;
+  animation-iteration-count: initial;
+  animation-name: slideButton;
+}
+
+.bascketPageClass, .footballPageClass, .handballPageClass, .tennisPageClass, .AccountInfoClass, .InvitePageClass {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  min-height: 220vh;
+}
+
+.nav {
+  background-color: none;
+  color: white;
+  display: flex;
+  gap: 2rem;
+  padding: 1rem;
+  font-size: 20px;
+  font-family: 'Poppins';
+  font-style: normal;
+  flex-wrap: wrap;
+  flex-direction: column;
+  align-content: center;
+}
+
+.nav ul {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  display: flex;
+  gap: 5rem;
+}
+
+.nav a {
+  color: inherit;
+  text-decoration: none;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  padding: .25rem;
+}
+
+.nav li.active {
+  color: #A8E910;
+}
+
+.nav li:hover {
+  background-color: #126BA8;
+  border-radius: 10.2111px;
+  top: -10px;
+}
+
+
+.search {
+  position: absolute;
+  top: 4rem;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 100%;
+  max-width: 400px;
+  z-index: 10;
+}
+
+.search input {
+  padding: 0.5rem;
+  font-size: 1.5rem;
+  width: 100%;
+}
+.googleMapClass{
+  display: flex;
+  position: relative;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  margin-bottom: 100px;
+}
+
+.fieldSelectListClass{
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+  top: 15px;
+}
+
+
+.fieldSelect{
+  border: 1px solid #FFFFFF;
+  border-radius: 70px;  
+  width: 1000px;
+  height: 185px;
+  position: relative;
+  color: white;
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 126%;
+  outline-color: white;
+  margin-bottom: 5px;
+
+}
+
+.fieldSelectAdress{
+  display: flex;
+  margin-left: 50px;
+  margin-bottom: 25px;
+}
+
+.fieldSelectDateTime{
+  display: flex;
+  margin-left: 50px;
+  margin-bottom: 5px;
+}
+
+.fieldSelectCountAndDate{
+  display: flex;
+  margin-left: 50px;
+  margin-bottom: 5px;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-right: 5rem;
+}
+
+.fields{
+  display: relative;
+  min-height: 100vh;
+  align-items: center;
+ 
+}
+
+.fieldsBorder{
+  border: 1px solid #FFFFFF;
+  border-radius: 70px;  
+  width: 1440px;
+  height: 850px;
+  position: relative;
+  color: white;
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 25px;
+  line-height: 126%;
+  outline-color: white;
+  margin-bottom: 5px;
+  margin-top: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  }
+
+
+.fieldsBorderListingPlayers{
+  border: 1px solid #FFFFFF;
+  border-radius: 70px;  
+  width: 1000px;
+  height: 500px;
+  position: relative;
+  color: white;
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 126%;
+  outline-color: white;
+  margin-bottom: 5px;
+  margin-top: 10px;
+}
+
+.fieldDetails{
+  display: flex;
+  align-content: flex-start;
+  flex-wrap: wrap;
+  margin-left: 50px;
+  width: 1446px;
+  font-size: 22px;
+}
+
+.fieldDetailsTime{
+  font-size: 20px;
+  margin-bottom: 0;
+}
+
+.fieldDetailsDate{
+  display: flex;
+  align-content: center;
+  font-size: 18px;
+}
+
+.fieldDetailsWithButton{
+  display: flex;
+  justify-content: space-between;
+  margin-right: 50px-;
+  width: 1446px;
+  margin-right: 75px;
+}
+
+.fa-check-circle{
+  color: #A8E910;
+  
+}
+
+.confirmationTextClass{
+  color: #A8E910;
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 22px;
+  line-height: 126%;
+  margin-left: 10px;
+
+}
+
+.accountClass{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-top: 50px;
+}
+
+.accountClassDiv{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.textFieldAccountInfo::placeholder{
+  color: white;
+}
+
+.fieldSelectListClass{
+  overflow: scroll;
+  max-height: 1160px;
+  overflow-x: hidden;
+
+}
+
+.fieldSelectListClass::-webkit-scrollbar{
+  width: 6px;
+}
+
+.fieldSelectListClass::-webkit-scrollbar-track{
+  background: #126BA8;
+}
+
+.fieldSelectListClass::-webkit-scrollbar-thumb{
+  background: #A8E910;
+}
+
+.fieldsBorderListingPlayers{
+  overflow: scroll;
+  max-height: 500px;
+  overflow-x: hidden;
+}
+
+.fieldsBorderListingPlayers::-webkit-scrollbar{
+  width: 6px;
+  height: 30px;
+  
+}
+
+.fieldsBorderListingPlayers::-webkit-scrollbar-track{
+  background: none;
+}
+
+.fieldsBorderListingPlayers::-webkit-scrollbar-thumb{
+  background: none;
+}
+
+.player{
+  display: flex;
+}
+
+.searchInput{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 0;
+  margin: 2%;
+  padding-left: 2px;
+}
+
+.searchField{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.searchButton{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin-left: 10px;  
+  width: 50px;
+  height: 25px;
+  color: #081F49;
+  border-color: #126BA8;
+}
+
+.adminPageUsers{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 900px;
+}
+
+.employeeName{
+  display: flex;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  font-size: 20px;
+  font-family: 'Poppins';
+  font-style: normal;
+  outline-color: #FFFFFF;
+}
+
+.playerClassInvite{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  font-size: 20px;
+  font-family: 'Poppins';
+  font-style: normal;
+  outline-color: #FFFFFF;
+  margin-right: 2rem;
+}
+
+.detailsOfInviteField{
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  margin-bottom: 10px;
+  font-size: 19px;
+  font-family: 'Poppins';
+  font-style: normal;
+  outline-color: #FFFFFF;
+}
+
+.invitePlayersScreen{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 50px;
+}
+
+.paragraphInviteClass{
+  padding: 0;
+  margin: 0;
+}
+
+.logoName{
+  display: flex;
+  align-items: center;
+  color: #A8E910;
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 30px;
+  line-height: 126%;
+  outline-color: #FFFFFF;
+
+}
+
+.HomeRegister{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-top: 50px;
+}
